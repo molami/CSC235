@@ -1,0 +1,144 @@
+﻿    
+1. Unix Operating System
+
+Unix is a family of multitasking,multi-user computer operating system, which also have time-sharing configurations. It uses a centralized OS kernel which is responsible for managing the entire system.
+
+The design of Unix systems is based on the “Unix Philosophy” which include:
+- Usage of plain test for data storage 
+- Hierarchical file system
+- Handling devices and some specific kinds of inter-process communication(ICP) as files
+employing a huge number of software tools
+- multiple small,simple and modular programs which can be threaded together via a command-line interpreter using pipes
+
+Linux is a Unix-like open-source operating system for computers,servers,mainframes,mobile and embedded devices.
+
+Flavors of Linux
+- Ubuntu
+
+
+- Fedora
+
+- Linux Mint
+
+- openSUSE
+
+- PcLinuxOS
+
+- Debian
+
+- Mandriva
+
+- Sabayon/Gentoo
+
+- Arch Linux...plus Slackware
+
+-Puppy Linux...plus DSL
+
+
+    
+2. Software Functional Requirements
+
+They are product features or functions that developers must implement thus enabling users to accomplish their tasks. It is a description of the services that the software must offer. It defines a system or it’s component and is mandatory.
+
+Examples:
+- Authentication of user whenever they log into the system
+- System shutdown in case of a Cyber attack
+- A verification email being sent to a user whenever they register for the first time on some software system, e.t.c
+
+When writing a Functional Requirements Document the following should be included:
+- Details of operations conducted in every screen
+- Data handling logic should be entered into the system
+- It should have descriptions of system reports or other outputs
+- Complete information about the workflows performed by the system 
+- It should clearly define who will be allowed to create/modify/delete the data in the system
+- How the system will fulfill applicable regulatory and compliant needs should be captured in the document
+
+
+Benefits Of Functional Requirement
+- Helps you to check whether the application is providing all the functionalities that were mentioned in the functional requirement of that application.
+- A functional requirement document helps you to define the functionality of a system or one of it’s subsystems.
+- Functional requirements along with requirements analysis help identify missing requirements.
+- Errors caught in the functional requirement gathering stage are the cheaper to fix
+- Support user goals,tasks or activities
+
+The most common functional requirement types include:
+Transaction handling, Business rules, Certification Requirements, Reporting Requirements, Administrative functions,Authorization levels, Audit Tracking, External Interfaces, Historical Data Management, Legal and Regulatory Requirements.
+
+
+    
+3. Why Unix Is Often Preferred.
+
+Many developers find Unix a refreshing alternative to monolithic tools like IDEs and languages like java. It supports multitasking and multi-user functionality.
+
+The shell: It is a program which takes input and translates it into actions, either running programs or configuring the system. It allows for an approach to development based on small tools.
+
+Everything Is a Text File: The traditional Unix design has been to use plain ASCII text files as much as possible. even devices such as the hard drive or printer are represented as files. They aren't really text files but programmers can treat them as such.
+
+Small Tools: Unix does complex tasks by building pipelines out of small tools. All of the shells have a pipeline character “I” which sends the output of one program into the input of another making stringing programs together easy.
+
+4. Why Unix Is Being Preferred To As A Scientific OS.
+
+- Unix was a driving force behind the development of the internet and transformation of computing into a network-centric paradigm
+- Unix developers are credited for bringing modularity and re-usability into the practice of software engineering and inciting a software tools movement
+- Unix developers also created a set of cultural rules for software development called the Unix Philosophy and it has been highly influential to the IT community
+
+    
+5. C
+
+‘C’ is a high-level non-interpreted (compiled) programming language. It is a general-purpose programming language that is extremely popular, simple and flexible to use.
+It is a procedural programming language supporting structured programming, lexical variable scop and recursion with a static type system. ‘C’ is closely linked with The Unix operating system, with most of the system written in ‘C’. Languages such as ‘C++’ and ‘Java’ are developed from ‘C.
+
+Uses of ‘C’ include
+- Embedded systems
+- Developing system applications
+- Developing system applications
+- Developing desktop applications
+- Most applications by ‘Adobe’ are developed using ‘C’
+- Developing browsers and their extensions e.g Google Chrome
+- Develop popular databases e.g MySQL
+- Developing operating systems
+- IOT applications
+   
+ 6. Structure Of ‘C’ Programming Language
+
+- Documentation: It usually includes the program’s; name, date, description and title. It’s purpose is to make th program more interactive and is usually written in form of comments.
+
+- Link/ Preprosessor Section: It contains all the necessary header files used in a program i.e #include which tells the compiler to link the header files to the system libraries.
+
+- Definition: This allows us to uses constants in the program and it is done by using the define keyword.
+
+- Global Deceleration: It is the section used to define the global variables in the program, making them available for use throughout the program. It also includes function declaration, static global variables and functions. User-defined functions can also be included here.
+
+- Main() functions: While other sections are optional this is not. Execution of the program starts from here. It consists of 2 parts 
+    (1) deceleration part: where all the variables are declared and
+    (2) execution part: it begins and ends with the curly bracket
+
+The main function is categorized into local declarations(within a function or block of code),statements(if,else,e.t.c) and expressions(formula/ linking of operands by the use of operators).
+
+
+- Subprograms/ User defined functions: the functions here are specified according to the requirements of the user ie the user provides all the functions including but not limited to inbuilt functions and global functions.
+
+The return function may or may not be included. It ends the execution of a function.
+   
+ 7. How To Run C on the OS
+
+- On Linux
+Make sure a compiler is installed i.e gcc
+1. Open Terminal,Use a text editor
+2. To open file use: file.c(file stands for the name of the file which can be anything eg. first)
+3. To edit the file: Press I to go to insert mode and type your program
+4. To save the file: Press the Esc and then type :wq. It will save the file
+5. To compile the program: Type gcc file.c 
+6. To run the program:./a/out
+
+
+- On windows
+
+1. Download the latest Dev CPP compiler from a trusted website and install it.
+2. Click new in the file tab
+3. Type your program 
+4. Save it wherever you want
+5. In the execute tab click compile  and then run
+
+
+
